@@ -1,0 +1,262 @@
+
+.topo{
+    padding: 20px 100px;
+    width:100%;
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+    justify-content: space-between;
+    background-color: rgba(228, 228, 228, 0.966);
+    margin: 0 auto;
+
+}
+.secao-titulo a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 28px;
+    color: rgb(2,2,53);
+}
+.secao-links a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 22px;
+    color: black;
+}
+.secao-titulo span{
+    font-size: 20px;
+    color: rgb(120, 120, 255);
+}
+.secao-banner{
+    width:100%;
+    max-width: 1024px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px 100px;
+    background-image: url("assets/img-fundo.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.secao-banner div{
+    width: 350px;
+    height: 150px;
+    border: 1px solid gray;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(119, 197, 180);
+    opacity: 90%;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.secao-conteudo{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.secao-conteudo-image{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.secao-conteudo-image div{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(0, 122, 82);
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.secao-conteudo-image div a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    padding: 12px;
+}
+.secao-conteudo-image img{
+    width: 300px;
+    height: 180px;
+   
+}
+.secao-rota{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.secao-sobre{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.secao-sobre-texto{
+    padding: 20px 0;
+}
+.secao-sobre-conteudo{
+    width: 100%;
+    max-width: 1024px;
+    height: 100%;
+    max-height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.card{
+    width:450px;
+    height: 120px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid rgb(23, 114, 87);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.secao-sobre-info{
+    width: 320px;
+    height: 110px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.secao-sobre-info h2{
+    margin-bottom: 3px;
+}
+.secao-sobre-image {
+    width: 100px;
+    height: 110px;
+    align-items: flex-end;
+}
+.secao-sobre-image img{
+    width: 100%;
+    height: 100%;
+}
+.rodape{
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color:rgb(84, 150, 128);
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(11, 73, 75);
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+    
+}
+.rodape div{
+    width: 300px;
+    height: 80px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.rodape div img{
+    width: 30px;
+    height: 30px;
+}
+.rodape div a{
+    text-decoration: none;
+    color: white;
+}
+.Copyright h2{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    background-color:rgb(84, 150, 128);
+    color: white;
+    font-size: 18px;
+}
+.secao-conteudo-quartos{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.secao-banner-quartos{
+    width: 100%;
+    max-width: 1024px;
+    height: 150px;
+    background-image: url("assets/img-fundo.jpg");
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.secao-quartos-solteiro{
+    padding: 50px 0;
+}
+.secao-image-quarto{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+    
+}
+.secao-image-quarto img{
+    width: 300px;
+    height: 200px;
+}
+.secao-quarto-casal{
+    padding: 50px 0;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.secao-quarto-familia{
+    padding: 50px 0;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.lista{
+    width: 100%;
+    max-width: 1024px;
+    height: 50px;
+    border: 1px solid rgb(77, 158, 120);
+    box-shadow: 10px 10px 10px;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+
+}
+.lista ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+.lista ul li{
+    font-size: 14px;
+    font-weight: bold;
+    flex-wrap: wrap;
+    flex-flow: 1 1 auto;
+}
+
